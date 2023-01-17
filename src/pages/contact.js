@@ -12,7 +12,7 @@ class contact extends React.Component
                             <section>
                                 <div>test</div>
                                 <div>test</div>
-                                ff
+                                
                             </section>
                         </Rb.Card.Body>
                     </Rb.Card>
