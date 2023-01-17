@@ -11,10 +11,12 @@ class contact extends React.Component
                         <Rb.Card.Body>
                             <section>
                                 <div>test</div>
+                                <div>test</div>
+                                ff
                             </section>
                         </Rb.Card.Body>
-                    </Rb.Card>    
-                
+                    </Rb.Card>
+                 
             </div>
         )
     }
