@@ -15,8 +15,8 @@ class header extends React.Component
                                 <Rb.Container className="p-0">
                                     <Rb.Navbar.Toggle aria-controls="responsive-navbar-nav" />
                                     <Rb.Navbar.Collapse id="responsive-navbar-nav">
-                                        <Rb.Card className="ms-auto">
-                                            <Rb.Nav className="nav_align shadow py-3">
+                                        <Rb.Card className="ms-auto nav_head">
+                                            <Rb.Nav className="nav_align shadow py-3 nav_head">
                                                 <Link to="/about" className="mx-3">About</Link>
                                                 <Link to="/resume" className="mx-3">Resume</Link>
                                                 <Link to="/project" className="mx-3">Project</Link>

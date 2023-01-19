@@ -36,8 +36,8 @@ class profile extends React.Component
                                                 <Rb.ListGroup>
                                                     <Rb.ListGroupItem className="my-2">
                                                         <div className="d-flex">
-                                                            <span className="box_1 shadow text-center">
-                                                                <Bi.BsEnvelope className="profile_icon"/>
+                                                            <span className="box_1 box  text-center">
+                                                                <Bi.BsEnvelope className="profile_icon y_color"/>
                                                             </span>
                                                             <div className="ps-2">
                                                                 <span className="sb">EMAIL</span><br/>
@@ -47,8 +47,8 @@ class profile extends React.Component
                                                     </Rb.ListGroupItem>
                                                     <Rb.ListGroupItem className="my-2">
                                                         <div className="d-flex">
-                                                            <span className="box_1 shadow text-center">
-                                                                <Bi.BsPhone className="profile_icon"/>
+                                                            <span className="box_1 box shadow text-center">
+                                                                <Bi.BsPhone className="profile_icon y_color"/>
                                                             </span>
                                                             <div className="ps-3">
                                                                 <span className="sb">PHONE NO</span><br/>
@@ -58,8 +58,8 @@ class profile extends React.Component
                                                     </Rb.ListGroupItem>
                                                     <Rb.ListGroupItem className="my-2">
                                                         <div className="d-flex">
-                                                            <span className="box_1 shadow text-center">
-                                                                <Bi.BsCalendarWeek className="profile_icon"/>
+                                                            <span className="box_1 box shadow text-center">
+                                                                <Bi.BsCalendarWeek className="profile_icon y_color"/>
                                                             </span>
                                                             <div className="ps-3">
                                                                 <span className="sb">DOB</span><br/>
@@ -69,8 +69,8 @@ class profile extends React.Component
                                                     </Rb.ListGroupItem>
                                                     <Rb.ListGroupItem className="my-2">
                                                         <div className="d-flex">
-                                                            <span className="box_1 shadow text-center">
-                                                                <Bi.BsPinMap className="profile_icon"/>
+                                                            <span className="box_1  box shadow text-center">
+                                                                <Bi.BsPinMap className="profile_icon y_color"/>
                                                             </span>
                                                             <div className="ps-3">
                                                                 <span className="sb">LOCATION</span><br/>
