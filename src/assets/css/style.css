@@ -8,9 +8,13 @@ body
 }
 p{
     font-size: 15px;
-    color:#D6D6D6;  
+    color:#D6D6D6 !important;  
     font-weight: 300;
 }
+.w_color{color:#FCFCFC;}
+.y_txt_color{background:linear-gradient(90deg, #FFDB6E, #FFBC5E); -webkit-background-clip: text;-webkit-text-fill-color:transparent;}
+.fw-4{font-weight: 400;}
+.fw-5{font-weight: 500;}
 .card{
     background-color: #1e1e1f;
     border: 1px solid #383838;
@@ -113,13 +117,71 @@ p{
 .time_line
 {
     width:1px;
-    height:100px;
+    height:140px;
     background-color: #383838;
 }
 .tl_bcir
 {
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
     border-radius: 50%;
     background: #ffda6d33;
+    position: absolute;
+    top: 24px;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
+.tl_bcir::before
+{
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #FFDB6E, #FFBC5E);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.progress_bar
+{
+    background:#383838 ;
+    height: 0.6rem;
+}
+.progress-bar
+{
+    background: linear-gradient(90deg, #FFDB6E, #FFBC5E);
+    border-radius:30px;
+}
+.input_align
+{
+    border: 1px solid #383838;
+    background-color: transparent;
+    color:#FCFCFC;
+    height: 50px;
+    border-radius: 12px;
+
+}
+.input_align:focus
+{
+    border-color: #FFDB6E;
+    background-color: transparent;
+    color:#FCFCFC;
+    box-shadow: none;
+}
+.btn_align
+{
+    color:#FFDB6E;
+    border-color: #FFDB6E;
+    background-color: transparent;
+    font-size: 14px;
+}
+.btn_align:hover
+{
+    background-color: transparent;
+    border-color: #FCFCFC;
+}
+
