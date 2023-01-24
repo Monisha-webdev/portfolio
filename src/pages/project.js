@@ -17,13 +17,22 @@ class Project extends React.Component
                             </section>
                             <section>
                             <Rb.Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3 mt-4">
-                            <Rb.Tab eventKey="home" title="Home">
+                            <Rb.Tab eventKey="all" title="All">
                                 <h1 className="">Projects 1</h1>
                             </Rb.Tab>
-                            <Rb.Tab eventKey="profile" title="Profile">
+                            <Rb.Tab eventKey="webapp" title="Web Applicaton">
                                 <h1 className="">Projects 2</h1>
                             </Rb.Tab>
-                            <Rb.Tab eventKey="contact" title="contact">
+                            <Rb.Tab eventKey="statweb" title="Static Website">
+                                <h1 className="">Projects 3</h1>
+                            </Rb.Tab>
+                            <Rb.Tab eventKey="wordpress" title="Wordpress">
+                                <h1 className="">Projects 3</h1>
+                            </Rb.Tab>
+                            <Rb.Tab eventKey="react" title="React js">
+                                <h1 className="">Projects 3</h1>
+                            </Rb.Tab>
+                            <Rb.Tab eventKey="figma" title="figma Design">
                                 <h1 className="">Projects 3</h1>
                             </Rb.Tab>
                             </Rb.Tabs>
