@@ -29,13 +29,9 @@ class Project extends React.Component
                                             <div class="text"><Bi.BsEyeFill className="y_color"/></div>
                                         </div>
                                     </div>
-                                    </Rb.Col>
-                                    <Rb.Col sm={12} md={6} lg={4} xl={4} className="mb-3">
-                                    <div className="con">
-                                        <Rb.Image fluid src={Img_1} alt="image" className="pro_h image" /> 
-                                        <div className="overlay">
-                                            <div class="text"><Bi.BsEyeFill className="y_color"/></div>
-                                        </div>
+                                    <div className="mt-2 px-2">
+                                        <h6 className="mb-1 w_color">Payroll Product</h6>
+                                        <p className="sb">Web Application</p>
                                     </div>
                                     </Rb.Col>
                                     <Rb.Col sm={12} md={6} lg={4} xl={4} className="mb-3">
@@ -44,6 +40,22 @@ class Project extends React.Component
                                         <div className="overlay">
                                             <div class="text"><Bi.BsEyeFill className="y_color"/></div>
                                         </div>
+                                    </div>
+                                    <div className="mt-2 px-2">
+                                        <h6 className="mb-1 w_color">Payroll Product</h6>
+                                        <p className="sb">Web Application</p>
+                                    </div>
+                                    </Rb.Col>
+                                    <Rb.Col sm={12} md={6} lg={4} xl={4} className="mb-3">
+                                    <div className="con">
+                                        <Rb.Image fluid src={Img_1} alt="image" className="pro_h image" /> 
+                                        <div className="overlay">
+                                            <div class="text"><Bi.BsEyeFill className="y_color"/></div>
+                                        </div>
+                                    </div>
+                                    <div className="mt-2 px-2">
+                                        <h6 className="mb-1 w_color">Payroll Product</h6>
+                                        <p className="sb">Web Application</p>
                                     </div>
                                     </Rb.Col>
                                     {/* 2 row */}
@@ -54,13 +66,9 @@ class Project extends React.Component
                                             <div class="text"><Bi.BsEyeFill className="y_color"/></div>
                                         </div>
                                     </div>
-                                    </Rb.Col>
-                                    <Rb.Col sm={12} md={6} lg={4} xl={4} className="mb-3">
-                                    <div className="con">
-                                        <Rb.Image fluid src={Img_1} alt="image" className="pro_h image" /> 
-                                        <div className="overlay">
-                                            <div class="text"><Bi.BsEyeFill className="y_color"/></div>
-                                        </div>
+                                    <div className="mt-2 px-2">
+                                        <h6 className="mb-1 w_color">Payroll Product</h6>
+                                        <p className="sb">Web Application</p>
                                     </div>
                                     </Rb.Col>
                                     <Rb.Col sm={12} md={6} lg={4} xl={4} className="mb-3">
@@ -69,10 +77,151 @@ class Project extends React.Component
                                         <div className="overlay">
                                             <div class="text"><Bi.BsEyeFill className="y_color"/></div>
                                         </div>
+                                    </div>
+                                    <div className="mt-2 px-2">
+                                        <h6 className="mb-1 w_color">Payroll Product</h6>
+                                        <p className="sb">Web Application</p>
+                                    </div>
+                                    </Rb.Col>
+                                    <Rb.Col sm={12} md={6} lg={4} xl={4} className="mb-3">
+                                    <div className="con">
+                                        <Rb.Image fluid src={Img_1} alt="image" className="pro_h image" /> 
+                                        <div className="overlay">
+                                            <div class="text"><Bi.BsEyeFill className="y_color"/></div>
+                                        </div>
+                                    </div>
+                                    <div className="mt-2 px-2">
+                                        <h6 className="mb-1 w_color">Payroll Product</h6>
+                                        <p className="sb">Web Application</p>
                                     </div>
                                     </Rb.Col>
                                     {/* 3 row */}
                                     <Rb.Col sm={12} md={6} lg={4} xl={4} className="mb-3">
+                                    <div className="con">
+                                        <Rb.Image fluid src={Img_1} alt="image" className="pro_h image" /> 
+                                        <div className="overlay">
+                                            <div class="text"><Bi.BsEyeFill className="y_color"/></div>
+                                        </div>
+                                    </div>
+                                    <div className="mt-2 px-2">
+                                        <h6 className="mb-1 w_color">Payroll Product</h6>
+                                        <p className="sb">Web Application</p>
+                                    </div>
+                                    </Rb.Col>
+                                    <Rb.Col sm={12} md={6} lg={4} xl={4} className="mb-3">
+                                    <div className="con">
+                                        <Rb.Image fluid src={Img_1} alt="image" className="pro_h image" /> 
+                                        <div className="overlay">
+                                            <div class="text"><Bi.BsEyeFill className="y_color"/></div>
+                                        </div>
+                                    </div>
+                                    <div className="mt-2 px-2">
+                                        <h6 className="mb-1 w_color">Payroll Product</h6>
+                                        <p className="sb">Web Application</p>
+                                    </div>
+                                    </Rb.Col>
+                                    <Rb.Col sm={12} md={6} lg={4} xl={4} className="mb-3">
+                                    <div className="con">
+                                        <Rb.Image fluid src={Img_1} alt="image" className="pro_h image" /> 
+                                        <div className="overlay">
+                                            <div class="text"><Bi.BsEyeFill className="y_color"/></div>
+                                        </div>
+                                    </div>
+                                    <div className="mt-2 px-2">
+                                        <h6 className="mb-1 w_color">Payroll Product</h6>
+                                        <p className="sb">Web Application</p>
+                                    </div>
+                                    </Rb.Col>
+                                </Rb.Row>
+                            </Rb.Tab>
+                            <Rb.Tab eventKey="webapp" title="Web Applicaton">
+                                <Rb.Row>
+                                <Rb.Col sm={12} md={6} lg={4} xl={4} className="mb-3">
+                                    <div className="con">
+                                        <Rb.Image fluid src={Img_1} alt="image" className="pro_h image" /> 
+                                        <div className="overlay">
+                                            <div class="text"><Bi.BsEyeFill className="y_color"/></div>
+                                        </div>
+                                    </div>
+                                    <div className="mt-2 px-2">
+                                        <h6 className="mb-1 w_color">Payroll Product</h6>
+                                        <p className="sb">Web Application</p>
+                                    </div>
+                                    </Rb.Col>
+                                    <Rb.Col sm={12} md={6} lg={4} xl={4} className="mb-3">
+                                    <div className="con">
+                                        <Rb.Image fluid src={Img_1} alt="image" className="pro_h image" /> 
+                                        <div className="overlay">
+                                            <div class="text"><Bi.BsEyeFill className="y_color"/></div>
+                                        </div>
+                                    </div>
+                                    </Rb.Col>
+                                    <Rb.Col sm={12} md={6} lg={4} xl={4} className="mb-3">
+                                    <div className="con">
+                                        <Rb.Image fluid src={Img_1} alt="image" className="pro_h image" /> 
+                                        <div className="overlay">
+                                            <div class="text"><Bi.BsEyeFill className="y_color"/></div>
+                                        </div>
+                                    </div>
+                                    <div className="mt-2 px-2">
+                                        <h6 className="mb-1 w_color">Payroll Product</h6>
+                                        <p className="sb">Web Application</p>
+                                    </div>
+                                    </Rb.Col>
+                                </Rb.Row>
+                           
+                            </Rb.Tab>
+                            <Rb.Tab eventKey="statweb" title="Static Website">
+                                <Rb.Row>
+                                <Rb.Col sm={12} md={6} lg={4} xl={4} className="mb-3">
+                                    <div className="con">
+                                        <Rb.Image fluid src={Img_1} alt="image" className="pro_h image" /> 
+                                        <div className="overlay">
+                                            <div class="text"><Bi.BsEyeFill className="y_color"/></div>
+                                        </div>
+                                    </div>
+                                    <div className="mt-2 px-2">
+                                        <h6 className="mb-1 w_color">Payroll Product</h6>
+                                        <p className="sb">Web Application</p>
+                                    </div>
+                                    </Rb.Col>
+                                    <Rb.Col sm={12} md={6} lg={4} xl={4} className="mb-3">
+                                    <div className="con">
+                                        <Rb.Image fluid src={Img_1} alt="image" className="pro_h image" /> 
+                                        <div className="overlay">
+                                            <div class="text"><Bi.BsEyeFill className="y_color"/></div>
+                                        </div>
+                                    </div>
+                                    <div className="mt-2 px-2">
+                                        <h6 className="mb-1 w_color">Payroll Product</h6>
+                                        <p className="sb">Web Application</p>
+                                    </div>
+                                    </Rb.Col>
+                                </Rb.Row>
+                            
+                                    
+                            </Rb.Tab>
+                            <Rb.Tab eventKey="wordpress" title="Wordpress">
+                                <Rb.Row>
+                                <Rb.Col sm={12} md={6} lg={4} xl={4} className="mb-3">
+                                    <div className="con">
+                                        <Rb.Image fluid src={Img_1} alt="image" className="pro_h image" /> 
+                                        <div className="overlay">
+                                            <div class="text"><Bi.BsEyeFill className="y_color"/></div>
+                                        </div>
+                                    </div>
+                                    <div className="mt-2 px-2">
+                                        <h6 className="mb-1 w_color">Payroll Product</h6>
+                                        <p className="sb">Web Application</p>
+                                    </div>
+                                    </Rb.Col>
+                                </Rb.Row>
+                            
+                                   
+                            </Rb.Tab>
+                            <Rb.Tab eventKey="react" title="React js">
+                                <Rb.Row>
+                                <Rb.Col sm={12} md={6} lg={4} xl={4} className="mb-3">
                                     <div className="con">
                                         <Rb.Image fluid src={Img_1} alt="image" className="pro_h image" /> 
                                         <div className="overlay">
@@ -98,106 +247,25 @@ class Project extends React.Component
                                     </Rb.Col>
                                 </Rb.Row>
                             </Rb.Tab>
-                            <Rb.Tab eventKey="webapp" title="Web Applicaton">
-                            <Rb.Col sm={12} md={6} lg={4} xl={4} className="mb-3">
-                                    <div className="con">
-                                        <Rb.Image fluid src={Img_1} alt="image" className="pro_h image" /> 
-                                        <div className="overlay">
-                                            <div class="text"><Bi.BsEyeFill className="y_color"/></div>
-                                        </div>
-                                    </div>
-                                    </Rb.Col>
-                                    <Rb.Col sm={12} md={6} lg={4} xl={4} className="mb-3">
-                                    <div className="con">
-                                        <Rb.Image fluid src={Img_1} alt="image" className="pro_h image" /> 
-                                        <div className="overlay">
-                                            <div class="text"><Bi.BsEyeFill className="y_color"/></div>
-                                        </div>
-                                    </div>
-                                    </Rb.Col>
-                                    <Rb.Col sm={12} md={6} lg={4} xl={4} className="mb-3">
-                                    <div className="con">
-                                        <Rb.Image fluid src={Img_1} alt="image" className="pro_h image" /> 
-                                        <div className="overlay">
-                                            <div class="text"><Bi.BsEyeFill className="y_color"/></div>
-                                        </div>
-                                    </div>
-                                    </Rb.Col>
-                            </Rb.Tab>
-                            <Rb.Tab eventKey="statweb" title="Static Website">
-                            <Rb.Col sm={12} md={6} lg={4} xl={4} className="mb-3">
-                                    <div className="con">
-                                        <Rb.Image fluid src={Img_1} alt="image" className="pro_h image" /> 
-                                        <div className="overlay">
-                                            <div class="text"><Bi.BsEyeFill className="y_color"/></div>
-                                        </div>
-                                    </div>
-                                    </Rb.Col>
-                                    <Rb.Col sm={12} md={6} lg={4} xl={4} className="mb-3">
-                                    <div className="con">
-                                        <Rb.Image fluid src={Img_1} alt="image" className="pro_h image" /> 
-                                        <div className="overlay">
-                                            <div class="text"><Bi.BsEyeFill className="y_color"/></div>
-                                        </div>
-                                    </div>
-                                    </Rb.Col>
-                                    
-                            </Rb.Tab>
-                            <Rb.Tab eventKey="wordpress" title="Wordpress">
-                            <Rb.Col sm={12} md={6} lg={4} xl={4} className="mb-3">
-                                    <div className="con">
-                                        <Rb.Image fluid src={Img_1} alt="image" className="pro_h image" /> 
-                                        <div className="overlay">
-                                            <div class="text"><Bi.BsEyeFill className="y_color"/></div>
-                                        </div>
-                                    </div>
-                                    </Rb.Col>
-                                   
-                            </Rb.Tab>
-                            <Rb.Tab eventKey="react" title="React js">
-                            <Rb.Col sm={12} md={6} lg={4} xl={4} className="mb-3">
-                                    <div className="con">
-                                        <Rb.Image fluid src={Img_1} alt="image" className="pro_h image" /> 
-                                        <div className="overlay">
-                                            <div class="text"><Bi.BsEyeFill className="y_color"/></div>
-                                        </div>
-                                    </div>
-                                    </Rb.Col>
-                                    <Rb.Col sm={12} md={6} lg={4} xl={4} className="mb-3">
-                                    <div className="con">
-                                        <Rb.Image fluid src={Img_1} alt="image" className="pro_h image" /> 
-                                        <div className="overlay">
-                                            <div class="text"><Bi.BsEyeFill className="y_color"/></div>
-                                        </div>
-                                    </div>
-                                    </Rb.Col>
-                                    <Rb.Col sm={12} md={6} lg={4} xl={4} className="mb-3">
-                                    <div className="con">
-                                        <Rb.Image fluid src={Img_1} alt="image" className="pro_h image" /> 
-                                        <div className="overlay">
-                                            <div class="text"><Bi.BsEyeFill className="y_color"/></div>
-                                        </div>
-                                    </div>
-                                    </Rb.Col>
-                            </Rb.Tab>
                             <Rb.Tab eventKey="figma" title="figma Design">
-                            <Rb.Col sm={12} md={6} lg={4} xl={4} className="mb-3">
-                                    <div className="con">
-                                        <Rb.Image fluid src={Img_1} alt="image" className="pro_h image" /> 
-                                        <div className="overlay">
-                                            <div class="text"><Bi.BsEyeFill className="y_color"/></div>
+                                <Rb.Row>
+                                    <Rb.Col sm={12} md={6} lg={4} xl={4} className="mb-3">
+                                        <div className="con">
+                                            <Rb.Image fluid src={Img_1} alt="image" className="pro_h image" /> 
+                                            <div className="overlay">
+                                                <div class="text"><Bi.BsEyeFill className="y_color"/></div>
+                                            </div>
                                         </div>
-                                    </div>
                                     </Rb.Col>
                                     <Rb.Col sm={12} md={6} lg={4} xl={4} className="mb-3">
-                                    <div className="con">
-                                        <Rb.Image fluid src={Img_1} alt="image" className="pro_h image" /> 
-                                        <div className="overlay">
-                                            <div class="text"><Bi.BsEyeFill className="y_color"/></div>
+                                        <div className="con">
+                                            <Rb.Image fluid src={Img_1} alt="image" className="pro_h image" /> 
+                                            <div className="overlay">
+                                                <div class="text"><Bi.BsEyeFill className="y_color"/></div>
+                                            </div>
                                         </div>
-                                    </div>
                                     </Rb.Col>
-                                    
+                                </Rb.Row>
                             </Rb.Tab>
                             </Rb.Tabs>
                             </section>
