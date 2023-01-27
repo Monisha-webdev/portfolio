@@ -9,6 +9,7 @@ import Resume from "./pages/resume";
 import Project from "./pages/project";
 import Contact from "./pages/contact";
 import Edex from "./pages/ed_ex";
+import Payroll_project from "./pages/payroll_project";
 class holding extends React.Component
 {
     render(){
@@ -30,6 +31,7 @@ class holding extends React.Component
                                         <Route path="/resume" element={<Resume />} />
                                         <Route path="/ed_ex" element={<Edex />} />
                                         <Route path="/contact" element={<Contact />} />
+                                         <Route path="/payroll_project" element={<Payroll_project />} />
                                     {/* </Route> */}
                                 </Routes>
                             {/* <About/> */}
