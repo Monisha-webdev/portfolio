@@ -264,3 +264,26 @@ p{
   .con:hover .image{
     transform: scale(1.1) ;
   }
+  .react-multi-carousel-item  {
+    margin:0px 10px;
+  }
+  .react-multi-carousel-dot--active button
+  {
+    background-color: #FFDA6D !important;
+    width: 33px !important;
+    border-radius: 30px !important;
+    height: 12px !important;
+  }
+  .react-multiple-carousel__arrow
+  {
+    min-width:26px !important;
+    min-height: 26px !important;
+  }
+  .react-multiple-carousel__arrow::before
+  {
+    font-size: 10px !important;
+  }
+  .react-multi-carousel-dot button
+  {
+    border-width:0px !important;
+  }
