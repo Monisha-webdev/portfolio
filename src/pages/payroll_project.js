@@ -6,6 +6,7 @@ import * as Bi from "react-icons/bs";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
+
 class Payroll_pro extends React.Component
 {
     
