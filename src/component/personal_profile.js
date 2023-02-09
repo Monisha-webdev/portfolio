@@ -10,7 +10,7 @@ class profile extends React.Component
     {
         return(
             <div>
-                <section className="my-5">
+                <section className="">
                     <Rb.Container className="p-0">
                         <Rb.Row>
                             <Rb.Col sm={12} md={12} lg={12}>

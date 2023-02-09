@@ -79,6 +79,47 @@ class about extends React.Component
                                     </Rb.Row>
                                 </div>
                             </section>
+                            <section>
+                                <div className="sub_heading mt-4">
+                                    <h2 className="">My Extra Activies</h2>
+                                    <Rb.Row className="mt-5">
+                                        <Rb.Col sm={12} md={6} lg={6} xl={6} className="py-2">
+                                            <Rb.Card>
+                                                <Rb.Card.Body className="g_box">
+                                                    <div className="text-center position-relative">
+                                                        <div className="d-flex active_ali">
+                                                            <span className="box_2  box_gray  shadow text-center">
+                                                                <Bi.BsGift className="profile_icon y_color"/>
+                                                            </span>
+                                                        </div>
+                                                        <div className="">
+                                                            <h3>Sending Gift Hampers</h3>
+                                                            <p className="mb-0">The most modern and high-quality design made at a professional level.</p>
+                                                        </div>
+                                                    </div>
+                                                </Rb.Card.Body>
+                                            </Rb.Card>
+                                        </Rb.Col>
+                                        <Rb.Col sm={12} md={6} lg={6} xl={6} className="py-2">
+                                            <Rb.Card>
+                                                <Rb.Card.Body className="g_box">
+                                                    <div className="text-center position-relative">
+                                                        <div className="d-flex active_ali">
+                                                            <span className="box_2  box_gray  shadow text-center">
+                                                                <Bi.BsPhone className="profile_icon y_color"/>
+                                                            </span>
+                                                        </div>
+                                                        <div className="">
+                                                            <h3>Watching Youtube</h3>
+                                                            <p className="mb-0">The most modern and high-quality design made at a professional level.</p>
+                                                        </div>
+                                                    </div>
+                                                </Rb.Card.Body>
+                                            </Rb.Card>
+                                        </Rb.Col>
+                                    </Rb.Row>
+                                </div>
+                            </section>
                         </Rb.Card.Body>
                     </Rb.Card>    
                 

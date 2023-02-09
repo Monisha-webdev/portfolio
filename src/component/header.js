@@ -8,7 +8,7 @@ class header extends React.Component
     render(){
         return(
             <div>
-                <section class="mt-5 ">
+                <section class="">
                     <Rb.Row>
                         <Rb.Col sm={12} md={12} lg={12}>
                             <Rb.Navbar className="py-0">
