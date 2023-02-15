@@ -19,6 +19,7 @@ class header extends React.Component
                                             <Rb.Nav className="nav_align shadow py-3 nav_head">
                                                 <Link to="/about" className="mx-3">About</Link>
                                                 <Link to="/resume" className="mx-3">Resume</Link>
+                                                <Link to="/skill" className="mx-3">Skills</Link>
                                                 <Link to="/project" className="mx-3">Project</Link>
                                                 <Link to="/ed_ex" className="mx-3">Education & Experiences</Link>
                                                 <Link to="/contact" className="mx-3">Contact</Link>
@@ -29,7 +30,6 @@ class header extends React.Component
                             </Rb.Navbar>
                         </Rb.Col>
                     </Rb.Row>
-                    
                 </section>
             </div>
         )

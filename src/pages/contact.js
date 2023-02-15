@@ -8,7 +8,7 @@ class contact extends React.Component
         // top_align_ab
         return(
             <div className="top_align">
-                    <Rb.Card className="shadow card_align">
+                    <Rb.Card className="shadow card_align bc_align">
                         <Rb.Card.Body>
                             <section>
                                 <div className="main_header">
