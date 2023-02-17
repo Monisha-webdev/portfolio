@@ -34,7 +34,7 @@ class holding extends React.Component
                                         <Route path="/contact" element={<Contact />} />
                                         <Route path="/skill" element={<Skill />} />
                                          <Route path="/payroll_project" element={<Payroll_project />} />
-                                        <Route path="" element={<Navigate to="/about" />} />   
+                                        <Route path="*" element={<Navigate to="/about" />} />   
                                     </Route>
                                 </Routes>
                         </Rb.Col>
