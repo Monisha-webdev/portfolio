@@ -317,3 +317,18 @@ p{
   .circle_download{width:70px;height:70px; border-radius: 50%; border:1px solid #FFBC5E;}
   .down_icon{position: absolute;top:0;bottom: 0; right: 0; left:0; margin: auto;}
   .pointer{cursor: pointer;}
+  .logo_circle{    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid #FFBC5E; position: relative;}
+    .skill_logo
+    {
+        position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #FFDA6D;
+    font-size: 40px;
+    }

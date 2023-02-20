@@ -2,6 +2,10 @@ import React from "react";
 import * as Rb from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import * as Bi from "react-icons/bs";
+import * as Ai from "react-icons/ai";
+import * as Tb from "react-icons/tb";
+import * as Si from "react-icons/si";
+import * as Fa from "react-icons/fa";
 class Skill extends React.Component
 {
     render(){
@@ -14,193 +18,167 @@ class Skill extends React.Component
                                     <h1 className="">Skill Set</h1>
                                     <div className="divider"></div>
                                 </div>
-                                {/* Experience */}
-                                <div className="mt-4">
-                                    <Rb.Row>
-                                        <Rb.Col sm={1} md={1} lg={1} xl={1} xxl={1}>
-                                            <div className="d-flex justify-content-center">
-                                                <span className="box_1 box  text-center">
-                                                    <Bi.BsEnvelope className="profile_icon y_color"/>
-                                                </span>
-                                            </div>
-                                            
-                                        </Rb.Col>
-                                        <Rb.Col sm={11} md={11} lg={11} xl={11} xxl={11} className="my-auto">
-                                        <div className="sub_heading ">
-                                            <h2 className="mb-0">Experience</h2>
-                                        </div>
-                                        </Rb.Col>
-                                    </Rb.Row>
-                                    {/* Saneforce */}
-                                    <Rb.Row>
-                                        <Rb.Col sm={1} md={1} lg={1} xl={1} xxl={1}>
-                                            <div className="position-relative">
-                                                <div className="time_line mx-auto"></div>
-                                                <div className="tl_bcir"></div>
-                                            </div>
-                                            
-                                        </Rb.Col>
-                                        <Rb.Col sm={11} md={11} lg={11} xl={11} xxl={11} className="">
-                                        <div className="sub_heading ">
-                                            <h6 className="mb-0 mt-4 w_color">Saneforce Product Company</h6>
-                                            <p className="y_txt_color fw-4 mt-2">Aug/2022 - Present</p>
-                                            <p className="mb-0">Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.</p>
-                                        </div>
-                                        </Rb.Col>
-                                    </Rb.Row>
-                                    {/* tag technology */}
-                                    <Rb.Row>
-                                        <Rb.Col sm={1} md={1} lg={1} xl={1} xxl={1}>
-                                            <div className="position-relative">
-                                                <div className="time_line mx-auto"></div>
-                                                <div className="tl_bcir"></div>
-                                            </div>
-                                            
-                                        </Rb.Col>
-                                        <Rb.Col sm={11} md={11} lg={11} xl={11} xxl={11} className="">
-                                        <div className="sub_heading ">
-                                            <h6 className="mb-0 mt-4 w_color">Tag Technology Services</h6>
-                                            <p className="y_txt_color fw-4 mt-2">June/2021 - July/2022</p>
-                                            <p className="mb-0">Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.</p>
-                                        </div>
-                                        </Rb.Col>
-                                    </Rb.Row>
-                                    {/* Icici */}
-                                    <Rb.Row>
-                                        <Rb.Col sm={1} md={1} lg={1} xl={1} xxl={1}>
-                                            <div className="position-relative">
-                                                <div className="time_line mx-auto"></div>
-                                                <div className="tl_bcir"></div>
-                                            </div>
-                                            
-                                        </Rb.Col>
-                                        <Rb.Col sm={11} md={11} lg={11} xl={11} xxl={11} className="">
-                                        <div className="sub_heading ">
-                                            <h6 className="mb-0 mt-4 w_color">ICICI Prudential Life Insurance</h6>
-                                            <p className="y_txt_color fw-4 mt-2">Aug/2020 - March/2021</p>
-                                            <p className="mb-0">Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.</p>
-                                        </div>
-                                        </Rb.Col>
-                                    </Rb.Row>
-                                </div>
-                                {/* Education */}
-                                <div className="mt-5">
-                                    <Rb.Row>
-                                        <Rb.Col sm={1} md={1} lg={1} xl={1} xxl={1}>
-                                            <div className="d-flex justify-content-center">
-                                                <span className="box_1 box  text-center">
-                                                    <Bi.BsEnvelope className="profile_icon y_color"/>
-                                                </span>
-                                            </div>
-                                            
-                                        </Rb.Col>
-                                        <Rb.Col sm={11} md={11} lg={11} xl={11} xxl={11} className="my-auto">
-                                        <div className="sub_heading ">
-                                            <h2 className="mb-0">Education</h2>
-                                        </div>
-                                        </Rb.Col>
-                                    </Rb.Row>
-                                    {/* Saneforce */}
-                                    <Rb.Row>
-                                        <Rb.Col sm={1} md={1} lg={1} xl={1} xxl={1}>
-                                            <div className="position-relative">
-                                                <div className="time_line mx-auto"></div>
-                                                <div className="tl_bcir"></div>
-                                            </div>
-                                            
-                                        </Rb.Col>
-                                        <Rb.Col sm={11} md={11} lg={11} xl={11} xxl={11} className="">
-                                        <div className="sub_heading ">
-                                            <h6 className="mb-0 mt-4 w_color">MBA Business Analytics</h6>
-                                            <p className="y_txt_color fw-4 mt-2">2022 - 2024</p>
-                                            <p className="mb-0">Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.</p>
-                                        </div>
-                                        </Rb.Col>
-                                    </Rb.Row>
-                                    {/* tag technology */}
-                                    <Rb.Row>
-                                        <Rb.Col sm={1} md={1} lg={1} xl={1} xxl={1}>
-                                            <div className="position-relative">
-                                                <div className="time_line mx-auto"></div>
-                                                <div className="tl_bcir"></div>
-                                            </div>
-                                            
-                                        </Rb.Col>
-                                        <Rb.Col sm={11} md={11} lg={11} xl={11} xxl={11} className="">
-                                        <div className="sub_heading ">
-                                            <h6 className="mb-0 mt-4 w_color">Bsc Computer Science</h6>
-                                            <p className="y_txt_color fw-4 mt-2">2017 - 2020</p>
-                                            <p className="mb-0">Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.</p>
-                                        </div>
-                                        </Rb.Col>
-                                    </Rb.Row>
-                                    {/* Icici */}
-                                    <Rb.Row>
-                                        <Rb.Col sm={1} md={1} lg={1} xl={1} xxl={1}>
-                                            <div className="position-relative">
-                                                <div className="time_line mx-auto"></div>
-                                                <div className="tl_bcir"></div>
-                                            </div>
-                                            
-                                        </Rb.Col>
-                                        <Rb.Col sm={11} md={11} lg={11} xl={11} xxl={11} className="">
-                                        <div className="sub_heading ">
-                                            <h6 className="mb-0 mt-4 w_color">HSC Computer Science</h6>
-                                            <p className="y_txt_color fw-4 mt-2">2016 - 2017</p>
-                                            <p className="mb-0">Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.</p>
-                                        </div>
-                                        </Rb.Col>
-                                    </Rb.Row>
-                                </div>
                             </section>
-                            <section>
-                                <div className="mt-5">
-                                    <div className="sub_heading">
-                                        <h2 className="mb-0">My Tech Skills</h2>
-                                    </div>
-                                    <div class="card mt-4">
-                                        <div class="g_box card-body">
-                                            <Rb.Row>
-                                                <Rb.Col sm={12} md={6} lg={6} xl={6}>
-                                                <div className="mb-4">
-                                                    <h6 className="w_color">HTML <span className="">90%</span></h6>
-                                                    <Rb.ProgressBar className="progress_bar" now={90} />
-                                                </div>
-                                                <div className="mb-4">
-                                                    <h6 className="w_color">Bootstrap <span className="">90%</span></h6>
-                                                    <Rb.ProgressBar className="progress_bar" now={80} />
-                                                </div>
-                                                <div className="mb-4">
-                                                    <h6 className="w_color">JavaScript <span className="">90%</span></h6>
-                                                    <Rb.ProgressBar className="progress_bar" now={75} />
-                                                </div>
-                                                <div className="mb-4">
-                                                    <h6 className="w_color">ReactJs <span className="">90%</span></h6>
-                                                    <Rb.ProgressBar className="progress_bar" now={95} />
-                                                </div>
-                                                </Rb.Col>
-                                                <Rb.Col sm={12} md={6} lg={6} xl={6}>
-                                                <div className="mb-4">
-                                                    <h6 className="w_color">CSS <span className="">90%</span></h6>
-                                                    <Rb.ProgressBar className="progress_bar" now={85} />
-                                                </div>
-                                                <div className="mb-4">
-                                                    <h6 className="w_color">React Bootstrap <span className="">90%</span></h6>
-                                                    <Rb.ProgressBar className="progress_bar" now={90} />
-                                                </div>
-                                                <div className="mb-4">
-                                                    <h6 className="w_color">Jquery <span className="">90%</span></h6>
-                                                    <Rb.ProgressBar className="progress_bar" now={90} />
-                                                </div>
-                                                <div className="mb-4">
-                                                    <h6 className="w_color">Wordpress <span className="">90%</span></h6>
-                                                    <Rb.ProgressBar className="progress_bar" now={70} />
-                                                </div>
-                                                </Rb.Col>
-                                            </Rb.Row>
-                                        </div>
-                                    </div>
+                            <section className="mt-3">
+                                <div className="w_color">
+                                    <h4 className="text-center">Core Language</h4>
                                 </div>
+                                <Rb.Card className="mt-4">
+                                    <Rb.Card.Body className="g_box ">
+                                        <Rb.Row>
+                                            <Rb.Col sm={6} md={3} lg={2} xl={2} className="mx-auto">
+                                                <div className="logo_circle mx-auto">
+                                                    <Ai.AiOutlineHtml5 className="skill_logo"/>
+                                                </div>
+                                                <p className="w_color text-center fw-5 mb-0 mt-2">HTML</p>
+                                            </Rb.Col>
+                                            <Rb.Col sm={6} md={3} lg={2} xl={2} className="mx-auto">
+                                                <div className="logo_circle mx-auto">
+                                                    <Tb.TbBrandCss3 className="skill_logo"/>
+                                                    
+                                                </div>
+                                                <p className="w_color text-center fw-5 mb-0 mt-2">CSS</p>
+                                            </Rb.Col>
+                                            <Rb.Col sm={6} md={3} lg={2} xl={2} className="mx-auto">
+                                                <div className="logo_circle mx-auto">
+                                                    <Tb.TbBrandJavascript className="skill_logo"/>
+                                                </div>
+                                                <p className="w_color text-center fw-5 mb-0 mt-2">JavaScript</p>
+                                            </Rb.Col>
+                                            <Rb.Col sm={6} md={3} lg={2} xl={2} className="mx-auto">
+                                                <div className="logo_circle mx-auto">
+                                                    <Si.SiJquery className="skill_logo"/>
+                                                </div>
+                                                <p className="w_color text-center fw-5 mb-0 mt-2">Jquery</p>
+                                            </Rb.Col>
+                                            <Rb.Col sm={6} md={3} lg={2} xl={2} className="mx-auto">
+                                                <div className="logo_circle mx-auto">
+                                                    <Fa.FaSass className="skill_logo"/>
+                                                </div>
+                                                <p className="w_color text-center fw-5 mb-0 mt-2">Sass</p>
+                                            </Rb.Col>
+                                        </Rb.Row>
+                                    </Rb.Card.Body>
+                                </Rb.Card>
+                            </section>
+                            <section className="mt-5">
+                                <div className="w_color">
+                                    <h4 className="text-center">FrameWorks</h4>
+                                </div>
+                                <Rb.Card className="mt-4">
+                                    <Rb.Card.Body className="g_box ">
+                                        <Rb.Row>
+                                            <Rb.Col sm={6} md={3} lg={2} xl={2} >
+                                                <div className="logo_circle mx-auto">
+                                                    <Bi.BsBootstrap className="skill_logo"/>
+                                                </div>
+                                                <p className="w_color text-center fw-5 mb-0 mt-2">Bootstrap</p>
+                                            </Rb.Col>
+                                            <Rb.Col sm={6} md={3} lg={2} xl={2} >
+                                                <div className="logo_circle mx-auto">
+                                                    <Si.SiMaterialui className="skill_logo"/>
+                                                </div>
+                                                <p className="w_color text-center fw-5 mb-0 mt-2">Material Ui</p>
+                                            </Rb.Col>
+                                            <Rb.Col sm={6} md={3} lg={2} xl={2} >
+                                                <div className="logo_circle mx-auto">
+                                                    <Si.SiTailwindcss className="skill_logo"/>
+                                                </div>
+                                                <p className="w_color text-center fw-5 mb-0 mt-2">TwilWind Css</p>
+                                            </Rb.Col>
+                                            <Rb.Col sm={6} md={3} lg={2} xl={2} >
+                                                <div className="logo_circle mx-auto">
+                                                    <Bi.BsBootstrapReboot className="skill_logo"/>
+                                                </div>
+                                                <p className="w_color text-center fw-5 mb-0 mt-2">React Bootstrap</p>
+                                            </Rb.Col>
+                                            
+                                        </Rb.Row>
+                                    </Rb.Card.Body>
+                                </Rb.Card>
+                            </section>
+                            <section className="mt-5">
+                                <div className="w_color">
+                                    <h4 className="text-center">Javascript Library</h4>
+                                </div>
+                                <Rb.Card className="mt-4">
+                                    <Rb.Card.Body className="g_box ">
+                                        <Rb.Row>
+                                            <Rb.Col sm={6} md={3} lg={2} xl={2} >
+                                                <div className="logo_circle mx-auto">
+                                                    <Si.SiReact className="skill_logo"/>
+                                                </div>
+                                                <p className="w_color text-center fw-5 mb-0 mt-2">ReactJs</p>
+                                            </Rb.Col>
+                                           
+                                            
+                                        </Rb.Row>
+                                    </Rb.Card.Body>
+                                </Rb.Card>
+                            </section>
+                            <section className="mt-5">
+                                <div className="w_color">
+                                    <h4 className="text-center">DataBase</h4>
+                                </div>
+                                <Rb.Card className="mt-4">
+                                    <Rb.Card.Body className="g_box ">
+                                        <Rb.Row>
+                                            <Rb.Col sm={6} md={3} lg={2} xl={2} >
+                                                <div className="logo_circle mx-auto">
+                                                    <Si.SiMicrosoftsqlserver className="skill_logo"/>
+                                                </div>
+                                                <p className="w_color text-center fw-5 mb-0 mt-2">SQL</p>
+                                            </Rb.Col>
+                                            <Rb.Col sm={6} md={3} lg={2} xl={2} >
+                                                <div className="logo_circle mx-auto">
+                                                    <Si.SiOracle className="skill_logo"/>
+                                                </div>
+                                                <p className="w_color text-center fw-5 mb-0 mt-2">Oracal</p>
+                                            </Rb.Col>
+                                            <Rb.Col sm={6} md={3} lg={2} xl={2} >
+                                                <div className="logo_circle mx-auto">
+                                                    <Si.SiJson className="skill_logo"/>
+                                                </div>
+                                                <p className="w_color text-center fw-5 mb-0 mt-2">Json</p>
+                                            </Rb.Col>
+                                        </Rb.Row>
+                                    </Rb.Card.Body>
+                                </Rb.Card>
+                            </section>
+                            <section className="mt-5">
+                                <div className="w_color">
+                                    <h4 className="text-center">Others</h4>
+                                </div>
+                                <Rb.Card className="mt-4">
+                                    <Rb.Card.Body className="g_box ">
+                                        <Rb.Row>
+                                            <Rb.Col sm={6} md={3} lg={2} xl={2} >
+                                                <div className="logo_circle mx-auto">
+                                                    <Bi.BsWordpress className="skill_logo"/>
+                                                </div>
+                                                <p className="w_color text-center fw-5 mb-0 mt-2">Wordpress</p>
+                                            </Rb.Col>
+                                            <Rb.Col sm={6} md={3} lg={2} xl={2} >
+                                                <div className="logo_circle mx-auto">
+                                                    <Si.SiFigma className="skill_logo"/>
+                                                </div>
+                                                <p className="w_color text-center fw-5 mb-0 mt-2">Figma</p>
+                                            </Rb.Col>
+                                            <Rb.Col sm={6} md={3} lg={2} xl={2} >
+                                                <div className="logo_circle mx-auto">
+                                                    <Si.SiAdobexd className="skill_logo"/>
+                                                </div>
+                                                <p className="w_color text-center fw-5 mb-0 mt-2">Adobe XD</p>
+                                            </Rb.Col>
+                                            <Rb.Col sm={6} md={3} lg={2} xl={2} >
+                                                <div className="logo_circle mx-auto">
+                                                    <Bi.BsGithub className="skill_logo"/>
+                                                </div>
+                                                <p className="w_color text-center fw-5 mb-0 mt-2">Git</p>
+                                            </Rb.Col>
+                                        </Rb.Row>
+                                    </Rb.Card.Body>
+                                </Rb.Card>
                             </section>
                         </Rb.Card.Body>
                     </Rb.Card>
