@@ -1,6 +1,6 @@
 import React from "react";
 import * as Rb from "react-bootstrap";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Profile from "./component/personal_profile";
 import Header from "./component/header";
@@ -26,7 +26,7 @@ class holding extends React.Component
                            
                        
                                 <Routes>
-                                    {/* <Route path="/" element={}> */}
+                                    <Route path="/">
                                         <Route exact index path="/about" element={<About />} />
                                         <Route path="/project" element={<Project />} />
                                         <Route path="/resume" element={<Resume />} />
@@ -34,9 +34,9 @@ class holding extends React.Component
                                         <Route path="/contact" element={<Contact />} />
                                         <Route path="/skill" element={<Skill />} />
                                          <Route path="/payroll_project" element={<Payroll_project />} />
-                                    {/* </Route> */}
+                                        <Route path="*" element={<Navigate to="/about" />} />   
+                                    </Route>
                                 </Routes>
-                            {/* <About/> */}
                         </Rb.Col>
                     </Rb.Row>
                 </Rb.Container>
