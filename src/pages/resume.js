@@ -17,13 +17,15 @@ class Resume extends React.Component
                             </section>
                             <section>
                             <Rb.Card className="mt-4">
-                                <Rb.Card.Body className="g_box">
-                                    <div className="d-flex">
-                                        <Bi.BsTextareaResize className="about_icon"/>
-                                        <div className="ps-3">
-                                            <h3>Web Design</h3>
-                                            <p className="mb-0">The most modern and high-quality design made at a professional level.</p>
+                                <Rb.Card.Body className="g_box py-5">
+                                    <div className="d-flex justify-content-center  pointer">
+                                        <div className="circle_download position-relative">
+                                            <Bi.BsDownload className="about_icon down_icon"/>
                                         </div>
+                                    </div>
+                                    <div className="ps-3 mt-3">
+                                        <h3 className="text-center w_color">Resume Download</h3>
+                                        <p className="mb-0 text-center">You can download the resources and contact me to talk</p>
                                     </div>
                                 </Rb.Card.Body>
                             </Rb.Card>

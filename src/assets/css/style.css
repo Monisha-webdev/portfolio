@@ -314,3 +314,6 @@ p{
     top:-46px;
   }
   .bc_align{min-height:88.3vh;max-height: fit-content;}
+  .circle_download{width:70px;height:70px; border-radius: 50%; border:1px solid #FFBC5E;}
+  .down_icon{position: absolute;top:0;bottom: 0; right: 0; left:0; margin: auto;}
+  .pointer{cursor: pointer;}
